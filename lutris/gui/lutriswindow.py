@@ -129,7 +129,7 @@ class LutrisWindow(Gtk.ApplicationWindow):  # pylint: disable=too-many-public-me
         self.website_search_toggle.set_label(_("Search Lutris.net"))
         self.website_search_toggle.set_tooltip_text(_("Search Lutris.net"))
         self.sidebar_listbox = SidebarListBox()
-        self.sidebar_listbox.set_size_request(250, -1)
+        self.sidebar_listbox.set_size_request(220, -1)
         self.sidebar_listbox.connect("selected-rows-changed", self.on_sidebar_changed)
         self.sidebar_scrolled.add(self.sidebar_listbox)
 
