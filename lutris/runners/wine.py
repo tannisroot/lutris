@@ -246,13 +246,14 @@ class wine(Runner):
             #     "default": True,
             #     "help": _("Use DXVK to handle DirectX9 games")
             # },
-            {
-                "option": "vkd3d",
-                "label": _("Enable VKD3D"),
-                "type": "bool",
-                "default": False,
-                "help": _("Enable DX12 support with VKD3D. This requires a compatible Wine build.")
-            },
+            # Disabled as we now use standalone VKD3D DLLs
+            #{
+            #    "option": "vkd3d",
+            #    "label": _("Enable VKD3D"),
+            #    "type": "bool",
+            #    "default": False,
+            #    "help": _("Enable DX12 support with VKD3D. This requires a compatible Wine build.")
+            #},
             {
                 "option": "esync",
                 "label": _("Enable Esync"),
